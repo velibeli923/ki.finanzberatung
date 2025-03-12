@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI Finanzberatung</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>KI-gestützte Finanzberatung</h1>
+        <p>Dein Weg zu finanzieller Freiheit – personalisiert und intelligent.</p>
+    </header>
+
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Unsere KI-gestützte Plattform hilft dir, deine Finanzen zu optimieren. Egal ob Budgetierung, Investitionen oder Steueroptimierung – wir haben die Lösung für dich.</p>
+    </section>
+
+    <section id="features">
+        <h2>Unsere Leistungen</h2>
+        <ul>
+            <li>📊 Personalisierte Budgetierung</li>
+            <li>💡 Investitionsempfehlungen</li>
+            <li>📈 Fortschrittsverfolgung</li>
+            <li>🧾 Steueroptimierung</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 KI Finanzberatung. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

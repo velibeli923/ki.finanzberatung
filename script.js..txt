@@ -1,0 +1,4 @@
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Vielen Dank für deine Nachricht! Wir werden uns bald bei dir melden.');
+});
